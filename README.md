@@ -1,0 +1,1 @@
+# resumos-rpg-dm-de-aluguel
