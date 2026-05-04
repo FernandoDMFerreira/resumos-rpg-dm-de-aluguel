@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Princes of the Apocalypse — Domingo 08h</title>
+  <style>
+    :root {
+      --bg: #05080a;
+      --panel: #0d1518;
+      --ink: #fff4d8;
+      --muted: #d4be8c;
+      --gold: #dfbd66;
+      --storm: #86d4ff;
+      --fire: #ff8b46;
+      --line: rgba(223,189,102,.34);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(134,212,255,.15), transparent 30%),
+        radial-gradient(circle at 90% 8%, rgba(255,139,70,.13), transparent 34%),
+        linear-gradient(180deg, #071013, #060708 55%, #100b08);
+      line-height: 1.6;
+    }
+    main { width: min(1040px, calc(100% - 28px)); margin: 0 auto; padding: 36px 0 56px; }
+    .hero, .panel {
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: linear-gradient(135deg, rgba(6,16,18,.94), rgba(16,11,8,.88));
+      box-shadow: 0 24px 70px rgba(0,0,0,.55);
+    }
+    .hero { padding: clamp(28px, 6vw, 70px); }
+    .kicker {
+      display: inline-flex; border: 1px solid var(--line); border-radius: 999px;
+      padding: 8px 14px; color: var(--gold); background: rgba(0,0,0,.34); font-weight: 700;
+    }
+    h1 { margin: 24px 0 12px; font-size: clamp(2.5rem, 8vw, 6.2rem); line-height: .9; letter-spacing: -.05em; }
+    .subtitle { max-width: 860px; font-size: clamp(1.1rem, 2.4vw, 1.8rem); }
+    .panel { margin-top: 24px; padding: clamp(18px, 3vw, 30px); }
+    h2 { margin: 0 0 12px; font-size: clamp(1.6rem, 3vw, 2.4rem); }
+    .session-card {
+      display: block; text-decoration: none; color: var(--ink);
+      border: 1px solid rgba(223,189,102,.30); border-radius: 18px;
+      padding: 16px 18px; margin-top: 14px;
+      background: linear-gradient(135deg, rgba(3,26,30,.72), rgba(45,24,9,.48));
+    }
+    .session-card:hover { border-color: rgba(223,189,102,.75); }
+    .session-card strong { display:block; font-size: 1.2rem; }
+    .session-card span { color: var(--muted); }
+    code {
+      display: inline-block; border: 1px solid rgba(223,189,102,.24);
+      border-radius: 10px; padding: 2px 7px; background: rgba(0,0,0,.32); color: #ffe4a5;
+    }
+    footer { margin-top: 28px; text-align: center; color: var(--muted); border-top: 1px solid var(--line); padding-top: 22px; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="kicker">🌋 Mesa • Domingo 08h • Projeto DM de Aluguel</div>
+      <h1>Princes of the Apocalypse</h1>
+      <p class="subtitle">Página índice da campanha para guardar, organizar e acessar os Resumos Interativos sem substituir registros antigos.</p>
+    </section>
+
+    <section class="panel">
+      <h2>📜 Resumos Interativos</h2>
+      <a class="session-card" href="./Sessao_10_Iceshield_Orcs/">
+        <strong>10ª Sessão — Iceshield Orcs</strong>
+        <span>03/05/2026 • Domingo 08h • Resumo Interativo da Sessão</span>
+      </a>
+    </section>
+
+    <section class="panel">
+      <h2>🗂️ Estrutura correta</h2>
+      <p>Esta página fica em <code>7Dom_08h_PrincesOfTheApocalypse/index.html</code>.</p>
+      <p>O resumo completo da sessão fica em <code>7Dom_08h_PrincesOfTheApocalypse/Sessao_10_Iceshield_Orcs/index.html</code>.</p>
+      <p>Na próxima sessão, crie outra pasta no mesmo nível: <code>Sessao_11_Nome_Do_Arco/index.html</code>.</p>
+    </section>
+
+    <footer>
+      Gerado em 04/05/2026, 14h42 (UTC-3) • Página índice da campanha
+    </footer>
+  </main>
+</body>
+</html>
